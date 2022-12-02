@@ -13,15 +13,6 @@ pub struct Weights {
     pub projects: HashMap<String, u32>,
 }
 
-impl Weights {
-    pub fn to_common(self) -> crate::Weights {
-        crate::Weights {
-            accounts: self.accounts,
-            projects: self.projects,
-        }
-    }
-}
-
 #[derive(Clone, Serialize, Deserialize)]
 #[serde(deny_unknown_fields, rename_all = "snake_case")]
 pub struct Config {

@@ -10,3 +10,5 @@ pub mod latest {
 pub enum VersionedProjectConfig {
     V1(v1::Config),
 }
+
+pub const FILENAME: &'static str = ".bread.yml";
