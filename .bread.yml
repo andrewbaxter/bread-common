@@ -1,0 +1,6 @@
+!v1
+weights:
+  accounts:
+    0: 100
+  projects:
+    https://github.com/serde-rs/serde: 100
