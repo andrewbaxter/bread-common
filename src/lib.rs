@@ -37,3 +37,5 @@ where
     let ordered: BTreeMap<_, _> = value.iter().collect();
     ordered.serialize(serializer)
 }
+
+pub const DEFAULT_WEIGHT: u32 = 100;
