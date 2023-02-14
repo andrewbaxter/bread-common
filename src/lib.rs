@@ -9,6 +9,7 @@ use serde::{
 };
 
 pub mod projectconfig;
+pub mod accountconfig;
 
 #[derive(PartialEq, Eq, PartialOrd, Ord, Clone, Copy, Hash, Serialize, Deserialize)]
 pub struct AccountId(pub i64);
