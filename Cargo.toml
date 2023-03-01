@@ -1,6 +1,6 @@
 [package]
 name = "bread-common"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2021"
 readme = "readme.md"
 description = "Common utilities for Bread projects"
